@@ -1,0 +1,26 @@
+{
+   'targets':[
+        {
+            'target_name':'an',
+            'type':'executable',
+            'dependencies':[],
+            'defines':[],
+            'include_dirs':[],
+            'sources':[
+                'template_sample.cpp',
+            ],
+            'conditions':[
+              ['OS=="win"',{
+                             'cflags':[],
+                             'ldflags':[]
+                         },{
+                              'cflags':[
+                                   '--std=c++11',
+                               ],
+                              'ldflags':[]
+                         }
+              ],
+            ]
+        }
+    ],
+}
