@@ -1,0 +1,17 @@
+{
+   'targets':[
+        {
+            'target_name':'an',
+            'type':'executable',
+            'dependencies':[],
+            'defines':[],
+            'include_dirs':[
+                'include'
+            ],
+            'sources':[
+                'main.cpp',
+            ],
+            'conditions':[]
+        }
+    ],
+}
