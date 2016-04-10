@@ -1,0 +1,17 @@
+{
+   'targets':[
+        {
+            'target_name':'an',
+            'type':'executable',
+            'dependencies':[],
+            'defines':[
+                 'BIG_NUMBER'
+            ],
+            'include_dirs':[],
+            'sources':[
+                'main.cpp',
+            ],
+            'conditions':[]
+        }
+    ],
+}
