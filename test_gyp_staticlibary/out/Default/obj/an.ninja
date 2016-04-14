@@ -1,0 +1,9 @@
+defines = 
+includes = 
+cflags = 
+cflags_c = 
+cflags_cc = 
+
+build obj/an.main.o: cxx ../../main.cpp
+
+build obj/liban.a: alink_thin obj/an.main.o

@@ -1,0 +1,15 @@
+{
+   'targets':[
+        {
+            'target_name':'an',
+            'type':'<(library)',
+            'dependencies':[],
+            'defines':[],
+            'include_dirs':[],
+            'sources':[
+                'main.cpp',
+            ],
+            'conditions':[]
+        }
+    ],
+}
