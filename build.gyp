@@ -9,6 +9,20 @@
             'sources':[
                 'template_sample.cpp',
             ],
+            'cflags':[
+                '-std=c++11'
+            ],
+            'conditions':[]
+        },
+        {
+            'target_name':'test_cpp_exception',
+            'type':'executable',
+            'dependencies':[],
+            'defines':[],
+            'include_dirs':[],
+            'sources':[
+                'test_cpp_exception/test_cpp_exception.cpp',
+            ],
             'conditions':[]
         }
     ],
